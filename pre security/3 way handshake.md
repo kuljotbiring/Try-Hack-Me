@@ -6,3 +6,8 @@
 | 4  | DATA  | Once a connection has been established, data (such as bytes of a file) is sent via the "DATA" message. |
 | 5  | FIN  | This packet is used to cleanly (properly) close the connection after it has been complete. |
 | #  | RST  | This packet abruptly ends all communication. This is the last resort and indicates there was some problem during the process. For example, if the service or application is not working correctly, or the system has faults such as low resources.  |
+
+
+ 1.   SYN - Client: Here's my Initial Sequence Number(ISN) to SYNchronise with (0)
+ 2.  SYN/ACK - Server: Here's my Initial Sequence Number (ISN) to SYNchronise with (5,000), and I ACKnowledge your initial number sequence (0)
+ 3. ACK - Client: I ACKnowledge your Initial Sequence Number (ISN) of (5,000), here is some data that is my ISN+1 (0 + 1)
