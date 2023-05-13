@@ -1,0 +1,16 @@
+OSI MODEL
+
+
+Application Layer - layer in which protocols and rules are in place to determine how the user should interact with data sent or received.
+
+Presentation Layer - translator for data to and from the application layer. layer in which standardization starts to take place.
+
+Session Layer - creates a connection to other computer data is destined for. Layer also divides up data to be sent into smaller chunks (packets)
+
+Transport Layer - determines the protocol in which the data is sent (TCP or UDP). 
+
+Network Layer - layer where routing and re-assembly of packets occurs. The routing determines most optimal path.
+
+Data link Layer - physical addressing of transmission. Adds in MAC address of receiving endpoint.
+
+Physical Layer - physical component of hardware used in networking. Use electrical signals to transfer data between each other in binary
