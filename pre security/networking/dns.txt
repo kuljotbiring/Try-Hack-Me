@@ -1,0 +1,21 @@
+Request site from browser
+
+Check local cache for IP address
+
+Check your recursive DNS server for address
+
+Query root server o find authoritative DNS server
+
+Authoritative DN server advises the IP address for the website
+
+Request passes through a web application firewall
+
+Request passes through a load balancer
+
+Connect to webserver of port 80 or 443
+
+Webserver receives the GET request
+
+Web application talks to database
+
+Your web browser renders the HTML into a viewable website
